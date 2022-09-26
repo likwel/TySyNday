@@ -56,6 +56,7 @@ Label(selection_fichier,text="Cliquer le bouton pour selectionner un fichier !")
 
 #btn=Button(selection_fichier,text="Parcourir",command=Selection_Fichier).pack()
 
+
 #panel de selection
 pane_selection = PanedWindow(selection_fichier, orient=HORIZONTAL)
 pane_selection.pack(side=RIGHT, expand=Y, pady=15, padx=5)
